@@ -1,0 +1,9 @@
+apply from: '../build.gradle'
+
+sourceSets {
+    main{
+        scala {
+            srcDirs = ['basics']
+        }
+    }
+}
